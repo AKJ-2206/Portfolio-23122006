@@ -1,0 +1,364 @@
+.body{
+    background-image: url("markus-spiske-iar-afB0QQw-unsplashmhjghkhh.jpg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background:white;
+    color:black;
+}
+
+.header {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #7a45;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color:red;
+}
+
+.home {
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    padding: 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    color: aliceblue;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color:greenyellow;
+}
+
+.home-content p {
+    color: aliceblue;
+    font-size: 25px;
+    margin: 20px 0 40px;
+}
+
+.image{
+    position: absolute;
+    left:1000px;
+    top:250px;
+    z-index: -1;
+    border-radius: 50%; 
+}
+
+.imageAboutPage {
+    width: 20%;
+    height: 20%;
+    padding-top: 100px;
+}
+.font{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    text-align:right;
+    margin-top: -50PX;
+}
+.box{
+    text-align: right;
+    padding-left: 750PX;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 19px;
+    color:azure;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: azure;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color:#7a45;
+    z-index: -1;
+    transition: .2s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+.home-logo {
+    position: absolute;
+    bottom: 120px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-logo a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.home-logo a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #7a45;
+    z-index: -1;
+    transition: .2s;
+}
+
+.home-logo a:hover::before {
+    width: 100%;
+}
+
+.education{
+    color:rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 0.25fr));
+    grid-gap: 20px;
+    height: 100px;
+    
+}
+
+.education div{
+    position: absolute;
+    border-radius: 0px;
+    background: #7a45;  
+    font-weight: 700;
+    width: 300px;
+    height: 190px;
+}
+
+.education div h2{
+    font-size: 26px;
+    font-weight: 700;
+    margin: bottom 16px;
+    align-content: baseline;
+}
+
+.education div a{
+    text-decoration: none;
+    color: azure;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.education h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    position: absolute;
+    left: 30%;
+    
+}
+
+.aboutme {
+   border-radius:0px;
+   background: #7a45;
+   font-size: 20px; 
+   font-weight: 600;
+   color: aliceblue;
+   padding-left: 50px;
+   margin-bottom: 100px;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .container{
+    width: 70%;
+    margin-top: 50px;
+    padding-left: 500px;
+  }
+  @keyframes load{
+    from {
+      width: 0%;
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%;
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%;
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%;
+    }
+  }
+  
+  .bar{
+    background-color: azure;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #7a45;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color: #7a45;
+  }
+  .bar.back::before{
+    background-color:#7a45;
+  }
+  
+  .bar.learning::before{
+    width: calc(20% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(45% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(50% - 10px);
+  }
+  .bar.advanced::before{
+    width: calc(60% - 10px);
+  }
+  .bar.expert::before{
+    width: calc(70% - 10px);
+  }
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
+
+
+.custom-form {
+    background-color: #fff; /* White background for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333; /* Black color for labels */
+}
+
+.form-input {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-button {
+    background-color: #4caf50; /* Green color for the button */
+    color: #fff; /* White color for the text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
